@@ -8,7 +8,7 @@
   * 
   *  Name: Joao Santiago Student ID: 126567221 Date: 14/04/2024
   *
-  *  Published URL: https://naughty-gray-headscarf.cyclic.app/
+  *  Published URL: https://cute-red-drill-kilt.cyclic.app/
   ********************************************************************************
   ********************************************************************************/
   const legoData = require('./modules/legoSets');
