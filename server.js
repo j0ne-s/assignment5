@@ -24,11 +24,6 @@
 
   app.set('view engine', 'ejs');
 
-  // app.use((req, res, next) => {
-  //   res.locals.page = req.path;
-  //   next();
-  // });
-
   app.get('/', (req, res) => {
     res.render("home", {page: '/'});
   });
