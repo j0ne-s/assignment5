@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 Page</title>
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body tabindex="-1">
+
+    <div class="navbar bg-blue-700 text-custom-404">
+      <div class="navbar-start">
+        <a class="<%= (page == '/') ? 'active' : '' %> btn btn-ghost normal-case text-xl" href="/">Lego Collection</a>
+      </div>
+  
+      <div class="navbar-end hidden lg:flex text-custom-404">
+        <ul>
+          <li><a class="<%= (page == '/lego/sets') ? 'active' : '' %> btn btn-ghost normal-case text-sm" href="/lego/sets">View Collection</a></li>
+          <li><a class="<%= (page == '/about') ? 'active' : '' %> btn btn-ghost normal-case text-sm" href="/about">About</a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <br>
+
+    <div class="container mx-auto">
+      <div class="hero  bg-blue-700 rounded-lg p-6 h-96">
+        <div class="hero-content text-center ">
+          <div class="max-w-md">
+            <h1 class="animate-blink text-8xl font-bold text-custom-404 underline">404</h1>
+            <p class="py-6 text-custom-404"> This is an error page. <br><br> I'm sorry, we're unable to find the hapiness you're looking for.</p>
+          </div>
+        </div>
+      </div>
+
+  </body>
+</html>

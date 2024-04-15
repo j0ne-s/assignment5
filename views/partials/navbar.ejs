@@ -1,0 +1,13 @@
+<div class="navbar bg-base-100">
+    <div class="navbar-start">
+      <a class="<%= (page == '/') ? 'active' : '' %> btn btn-ghost normal-case text-xl" href="/">Lego Collection</a>
+    </div>
+
+    <div class="navbar-end hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a class="<%= (page == '/lego/sets') ? 'active' : '' %> " href="/lego/sets">View Collection</a></li>
+        <li><a class="<%= (page == "/lego/addSet") ? 'active' : '' %> " href="/lego/addSet">Add to Collection</a></li>
+        <li><a class="<%= (page == '/about') ? 'active' : '' %> " href="/about">About</a></li>
+      </ul>
+    </div>
+  </div>
